@@ -1,3 +1,15 @@
+# PlatformIO + Azure IoT + ESP-IDF
+
+This project is a PlatformIO-compilable version of https://github.com/Azure-Samples/iot-middleware-freertos-samples/blob/main/demos/projects/ESPRESSIF/esp32 as of July 1st, 2023.
+
+To build this project, simply clone this project and open it in VSCode with the PlatformIO extension installed.
+
+Enter the menuconfig configuration in the project per [PlatformIO documentation](https://docs.platformio.org/en/stable/frameworks/espidf.html#configuration). You can setup your WiFi and Azure credentials there as well as in the files of the `config/` folder.
+
+The original README.md is printed below for completeness' sake. Do **not** execute the `idf.py` commands, building is done normally with the PlatformIO project task -> Build (+ Upload).
+
+-------------------------------------------------
+
 # Connect an ESPRESSIF ESP32 using Azure IoT Middleware for FreeRTOS
 
 ## What you need
